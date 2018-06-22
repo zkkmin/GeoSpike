@@ -3,6 +3,7 @@ from django.test import Client
 from . import views
 
 # Create your tests here.
+# Just added
 class TestView(TestCase):
     def setUp(self):
         self.factory = RequestFactory()
